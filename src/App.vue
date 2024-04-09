@@ -1,15 +1,20 @@
 <template>
-  <div>
-
-  </div>
+    <AppTitle />
 </template>
 
 <script>
+import AppTitle from "./components/AppTitle.vue";
   export default {
-    
+    name:'App',
+    components:{
+      AppTitle,
+    },data(){
+
+    },
+
   }
 </script>
 
-<style lang="scss" scoped>
+<style scoped>
 
 </style>
